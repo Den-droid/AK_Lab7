@@ -4,7 +4,7 @@ STACK 256
 
 DATASEG
 string db	254		;максимальна довжина введення 
-db 254 dup ('*')	;буфер
+db 254 dup ('*')	;буфер.
 
 system_message_1 db "Input something\ " ,'$' 
 display_message_0 db "----menu begin	", 13, 10, '$'
